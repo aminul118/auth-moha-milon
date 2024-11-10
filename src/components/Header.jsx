@@ -42,7 +42,9 @@ const Header = () => {
               {links}
             </ul>
           </div>
-          <Link to='/' className="  text-xl">Authentication</Link>
+          <Link to="/" className="  text-xl">
+            Authentication
+          </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{links}</ul>
